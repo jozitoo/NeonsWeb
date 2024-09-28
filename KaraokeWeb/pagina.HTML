@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeonStar</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link id="theme-style" rel="stylesheet" href="diseño.css">
+    <style>
+        /* Añadir algunos estilos específicos para las nuevas secciones */
+        #map {
+            width: 100%;
+            height: 400px;
+            border: 0;
+        }
+        .testimonios {
+            margin: 20px 0;
+        }
+        .testimonios blockquote {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <!-- Imagen de fondo -->
+    <div class="background-image"></div>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">NEON STAR</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#presentacion">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre-mi">Precios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#video-audio">Medios de pago</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Ubicacion">Ubicacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#comentario">Comentario</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Sección de presentación personal -->
+    <section id="presentacion" class="container text-center my-5 fadeIn">
+        <h1>KARAOKE INFANTIL</h1>
+        <img src="logo.png" alt="Imagen del Portafolio" class="img-fluid rounded-circle mb-3 zoomIn" style="width: 200px; height: 200px;">
+        <article>
+            <h2 class="slideUp">Canta para vivir</h2>
+        </article>
+        <p class="fadeIn">Esta es una pagina para que puedas disfrutar de manera inolvidable para ustedes nuestros clientes.</p>
+        <p class="fadeIn">NO IMPORTA TU FORMA DE SER, LO IMPORTANTE ES DISFRUTAR!</p>
+    </section>
+
+    <!-- Galería de proyectos -->
+    <section id="proyectos" class="container my-5 fadeIn">
+        <h2 class="text-center mb-4 slideUp">NUESTROS SERVICIOS</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4 zoomIn">
+                <div class="card">
+                    <img src="infantil.webp" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Musica Infantil</h5>
+                        <p class="card-text">Recordar los momentos que vivimos en nuestra infancia con canciones super divertidas de manera creativa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 zoomIn">
+                <div class="card">
+                    <img src="disney.jpg" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Musicas de peliculas</h5>
+                        <p class="card-text">Disfrutar las canciones de grandes peliculas familiares, como las de Pixar, Disney o Dreamworks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 zoomIn">
+                <div class="card">
+                    <img src="fiesta.jpg" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Musicas de Fiestas</h5>
+                        <p class="card-text">Celebar de forma alegre y festivas, canciones como La Bamba o La Macarena que inviten a bailar a nuestros clientes.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección "Sobre mí" -->
+    <section id="sobre-mi" class="container text-center my-5 fadeIn">
+        <h2 class="mb-4 slideUp">PRECIOS Y REFRIGERIOS</h2>
+        <p class="fadeIn">Estaremos ofreciendo un servicio de entrada para todos aquellos que quieran participar en nuestra actividad de karaoke, los precios son los sigientes:</p>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="icon-box zoomIn">
+                    <img src="persona.jpeg" alt="persona" class="icon">
+                    <h5>Por persona - $1.500</h5>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="icon-box zoomIn">
+                    <img src="personas.png" alt="personas" class="icon">
+                    <h5>En pareja - $2.500</h5>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="icon-box zoomIn">
+                    <img src="bebida.jpeg" alt="Bebidas" class="icon">
+                    <h5>Bebidas - $500 </h5>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="icon-box zoomIn">
+                    <img src="deditos.jpeg" alt="deditos" class="icon">
+                    <h5>Deditos de queso - $500 </h5>
+                </div>
+            </div>
+    </section>
+
+ <!-- Sección de medios -->
+<section id="Pagos" class="container my-5">
+    <h2 class="text-center mb-4">Medios de pago</h2>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <h3>Nequi</h3>
+            <img src="qrn.jpeg" alt="Para pagar por si no tienes efectivo." class="w-100">
+        </div>
+        <div class="col-md-6 mb-4">
+            <h3>Fotos a tu WhatsApp</h3>
+            <img src="qrw.jpeg" alt="Escríbenos por si quieres las fotos." class="w-100">
+        </div>
+    </div>
+</section>
+
+    <!-- Nueva sección de ubicación -->
+    <!-- Sección de ubicación -->
+<!-- Sección de ubicación -->
+<section id="ubicacion" class="container my-5">
+    <h2 class="text-center mb-4">Ubicación</h2>
+    <iframe 
+        id="map" 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.2968057549756!2d-75.55078368589472!3d10.391041553938265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e493ff43068d4fb%3A0x3c8dff863b2b5c79!2sCartagena%2C%20Bol%C3%ADvar%2C%20Colombia!5e0!3m2!1ses!2sus!4v1694900925191!5m2!1ses!2sus" 
+        width="100%" 
+        height="400" 
+        frameborder="0" 
+        style="border:0;" 
+        allowfullscreen="" 
+        aria-hidden="false" 
+        tabindex="0">
+    </iframe>
+</section>
+<!-- Sección de contacto -->
+<section id="contacto" class="container my-5">
+    <h2 class="text-center mb-4">Que te parece nuestro proyecto?</h2>
+    <form action="#" method="post">
+        <div class="form-group">
+            <label for="comentario">Comentario</label>
+            <textarea class="form-control" id="comentario" name="comentario" rows="4" placeholder="Escribe tu comentario aquí..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</section>
+
